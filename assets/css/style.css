@@ -1,116 +1,41 @@
 * {
 	box-sizing: border-box;
 } 
-
 body {
-background-image: url("../images/concrete-texture/concrete-texture/concrete-texture.png");
-	font-size:  18px;
-	line-height: 34px;
-	font-family: 'Arial', 'Helvetica Neve', Helvetica, sans-sarif;
-	color: #777;
+	background-image: url("../images/concrete-texture/concrete-texture/concrete-texture.png");
 }
+.socialImg{
 
-.container {
-
-	width: 100%;
-	max-width: 960px;
-	margin: 0 auto;
-	clear: both;
-}
-/* general */
-h1, h2, h3, p{
-
-	margin-bottom; 20px
-}
-
-p:last-child{
-
-	margin-bottom: 0px;
-}
-
-h1 {
-	font-size: 30px;
-	line-height: 49px;
-	border-bottom: 3px solid, #ddd;
-	padding-bottom: 20px;
-	color: #4aaaa5;
-}
-
-h2, h3 {
-
-	font-size: 22px;
-	color: #4aaaa5;;
-}
-
-/* header info */
-#mainHead{
-
-	background: #fff;
-	margin: 0 0 30px;
-	z-index: 99 ;
-	color: #fff;
-	overflow: auto;
-	border-bottom: 2px solid #ccc;
-	position: fixed;
-	width: 100%;
+		width:62px;
+	height:80px;
+	margin-top: 8px;
+	margin-right: 5px;
 
 }
-
-#mainLogo{
-
-	width: 250px;
-	height: 90px;
-	background: #4aaaa5;
-	float: left;
-	font-family: 'Georgia', Times, Times New Roman, ,serif;
-	text-align: center;
-	line-height: 90px;
-	color: #fff;
-	font-weight: 700;
-	font-size:30px;
-	text-decoration:  none;
+#firstRow{
+	padding: 20px;
 }
-nav{
-
-	float: right;
-	margin-top: 25px;
-}
-
-nav a{
-
-	color: #999;
-	text-decoration: none;
-	margin-left: 15px;
-	display: inline-block;
-	border-left: 1px solid #efefef;
-	padding-left: 15px;
-	line-height: 18px;
-
+#secondRow{
 
 }
+.tstClass{
 
-nav a:first-child{
-
-		border-left: 0 none;
+	background: blue;
 }
-.contact{
+.aboutMeBackground{
 
-	padding: 80px;
+	background:#fff;
 }
-#main-container{
-
-	padding-top: 130px;
+.subNavBrand{
+  background: #4aaaa5;
+  color: #fff;
+  padding: 10px;
+  margin: 3px;
 }
-
-.main-section{
-
-	background: #fff;
-	padding: 30px;
-	margin: 0 0 40px 0;
-	width: 100%;
-	max-width: 650px;
-	float: left;
-	border: 1px solid #ddd;
+.aboutMe{
+  margin: 80px 20px 0px 50px;
+  padding: 3px;
+  border-bottom: 1px solid #4aaaa5;
 }
 
 .auth-image{
@@ -120,50 +45,8 @@ nav a:first-child{
 	float: left;
 	margin-right: 25px;
 }
+/*portfolio */ 
 
-.sidebar{
-
-	background: #fff;
-	padding: 30px;
-	width: 100%;
-	max-width: 370px;
-	float: right;
-	border: 1px solid #ddd;
-	margin-bottom: 20px;
-}
-
-h3, .sidebar, h2{
-
-	border-bottom: 2px solid #eee;
-	padding-bottom: 20px;
-	margin-bottom: 15px;
-	line-height: 22px;
-}
-
-.socialImg{
-	width:62px;
-	height:62px;
-	margin-top: 8px;
-	margin-right: 5px;
-
-}
-
-/*footer*/
-footer{
-
-	background: #666;
-	color: #fff;
-	padding: 30px 0;
-	clear: both;
-	border-top: 8px solid #4aaaa5;
-	color: #ccc;
-	font-size: 12px;
-	text-align: center;
-	bottom: 0;
-
-}
-
-/* portfolio */
 .work {
 
 	width: 274px;
@@ -198,40 +81,12 @@ footer{
 	margin-bottom: 0;
 	font-weight: 300;
 }
-
-/* contect info */
-#contact-form ul {
-	margin-bottom: 20px;
+.testFooter{
+	background: #666; 
+	border-top: 8px solid #4aaaa5;
 }
 
-#contact-form li{
+.extCard{
 
-	margin-bottom: 10px;
-}
-
-label,
-label[type=text],
-label[type=email],
-textarea{
-	display: block;
-	width: 100%;
-
-}
-input[type=text],
-input[type=email],
-textarea{
-
-	height: 35px;
-	border: 1px solid #ddd;
-	padding: 0 10px;
-	font-size: 14px;
-}
-
-input[type=submit]{
-	background: #4aaaa5;
-	border: 0 none;
-	color: #fff;
-	font-size: 18px;
-	padding:10px 30px;
-	cursor: pointer;
+	color: #4aaaa5;
 }

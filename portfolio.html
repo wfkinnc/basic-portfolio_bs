@@ -2,60 +2,130 @@
 <html lang="en-us">
 <head>
 <meta charset="UTF-8"></meta>
-<title>Portfolio for William F. Kassebaum</title>	
-	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+<title>Portfolio Page for William F. Kassebaum</title>	
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- <!  <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+    </style>
 </head>
 <body>
-<header id="mainHead">
-	<div class="container">
-		<a href="portfolio.html"  id="mainLogo">Portfolio</a>0
-			<nav>
-				<a href="index.html">About Me</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
-			</nav>
-	</div>
-</header>
-<div id="main-container" class="contact">
-	<section class="main-section">
-		<h1>Portfolio</h1>
-		<div class="work">
-			<img src="assets/images/Rugby-Union-ball.jpg" alt="rugby" class="auth-image">
-			<h3>Rugby</h3>
-		</div>
-		<div class="work">
-			<img src="assets/images/fish_car_002.jpg" alt="p1800" class="auth-image">
-			<h3>Volvo P1800</h3>
-		</div>
 
-		<div class="work">
-			<img src="assets/images/runner.jpg" alt="running" class="auth-image">
-			<h3>Running</h3>
-		</div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container backGroundImg">
 
-		<div class="work">
-			<img src="assets/images/balance.JPG" alt="bar tricks" class="auth-image">
-			<h3>Stupid Bar Tricks</h3>
-		</div>
+        <a class="navbar-brand" href="#" >
 
-		<div class="work">
-			<img src="assets/images/KowiUPSf.jpg" alt="the Dead" class="auth-image">
-			<h3>Grateful Dead</h3>
-		</div>
-	</section>
-	<section class="sidebar">
-		<h2>Connect with me</h2>
-			<a href="https://github.com/wfkinnc" target="_blank" ><img src="assets/images/if_github2_252065.png" alt="Github" class="socialImg"></a>
-			<a href="https://www.linkedin.com/in/william-kassebaum-5907232/" target="_blank" ><img src="assets/images/if_linkedin_1896062.png" alt="LinkedIn" class="socialImg"></a>
-			<a href="https://stackoverflow.com/users/story/8465340" target="_blank" ><img src="assets/images/stackoverflowpx.png" alt="Stack Overflow" class="socialImg"></a>
+          <div class="subNavBrand">
+            <h1>Portfolio</h1>
+          </div>
+            </a>
 
-	</section>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <span class="navbar-text mr-auto"></span>
+
+                <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Content</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    <!-- PLACE THE REST OF THE CONTENT HERE -->
+    <div class="container-fluid">
+      <div class="row" id="firstRow">
+        <div class="col-sm-7 aboutMeBackground extCard">
+        		<h1 class="aboutMe">About Me</h1>
+        </div>
+        <div class="col-sm-5">
+            <div class="card">
+                <div class="card-header extCard">
+                 <h2> Connect with Me</h2>
+                </div>
+                <div class="card-body">
+          					<a href="https://github.com/wfkinnc" target="_blank" ><img src="assets/images/if_github2_252065.png" alt="Github" class="socialImg col-sm-3"></a>
+          					<a href="https://www.linkedin.com/in/william-kassebaum-5907232/" target="_blank" ><img src="assets/images/if_linkedin_1896062.png" alt="LinkedIn" class="socialImg col-sm-3"></a>
+          					<a href="https://stackoverflow.com/users/story/8465340" target="_blank" ><img src="assets/images/stackoverflowpx.png" alt="Stack Overflow" class="socialImg col-sm-3"></a>
+
+
+
+                  <!-- <p class="card-text">Sidebar Content.</p> -->
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+ 
+
+        <div class="row " id="secondRow">
+          <div class="col-sm-3 col-lg-3 aboutMeBackground " >
+            <div class="work">
+              <img src="assets/images/Rugby-Union-ball.jpg" alt="rugby" class="auth-image">
+              <h3>Rugby</h3>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-lg-3 aboutMeBackground">
+              <div class="work">
+                <img src="assets/images/fish_car_002.jpg" alt="p1800" class="auth-image">
+                <h3>Volvo P1800</h3>
+              </div>
+          </div>
+        </div>
+
+        <div class="row" id="thirdRow">
+          <div class="col-sm-3 col-lg-3 aboutMeBackground" >
+              <div class="work">
+                <img src="assets/images/runner.jpg" alt="running" class="auth-image">
+                <h3>Running</h3>
+              </div>
+          </div>
+
+          <div class="col-sm-3 col-lg-3 aboutMeBackground">
+                 <div class="work">
+                    <img src="assets/images/KowiUPSf.jpg" alt="the Dead" class="auth-image">
+                    <h3>Grateful Dead</h3>
+                  </div>
+          </div>
+        </div>
+
+               <div class="row" id="forthRow">
+          <div class="col-sm-3 col-lg-6 aboutMeBackground" >
+              <div class="work">
+
+                  <img src="assets/images/balance.JPG" alt="bar tricks" class="auth-image">
+                  <h3>Stupid Bar Tricks</h3>
+
+
+              </div>
+          </div>
+        </div>
+
+
+
 </div>
-<footer>
-	<div class="container">
-	© Copyright 2017 William F. Kassebaum
-	</div>
-</footer>
+     <div class="card-footer text-muted text-center testFooter" >
+        © Copyright 2017 William F. Kassebaum
+     </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
 </html>
